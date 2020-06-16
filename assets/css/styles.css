@@ -39,3 +39,22 @@
   }
 }
 
+@media (min-width: 768px) {
+  .para1 {
+    padding-left: 40px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .para1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+  }
+}
+
+.para1 {
+  /*padding-top: 30px;*/
+}
+
