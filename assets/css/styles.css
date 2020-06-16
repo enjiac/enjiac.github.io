@@ -6,11 +6,13 @@
   font-size: 20px;
 }
 
-body {
-  max-width: 83%;
-  margin: 0 auto !important;
-  float: none !important;
-  background-color: rgba(12,12,12,0.95);
+@media (min-width: 300px) {
+  body {
+    max-width: 83%;
+    margin: 0 auto !important;
+    float: none !important;
+    background-color: rgba(12,12,12,0.95);
+  }
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -23,5 +25,16 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(255,255,255,.5);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(255,255,255,1);
+  border-color: rgba(255,255,255,1);
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
 }
 
