@@ -10,5 +10,18 @@ body {
   max-width: 83%;
   margin: 0 auto !important;
   float: none !important;
+  background-color: rgba(12,12,12,0.95);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255,.7) !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(255,255,255,1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
 }
 
