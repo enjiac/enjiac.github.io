@@ -59,7 +59,29 @@
 }
 
 a:hover {
-  /*color: #0056b3;*/
-  text-decoration: none;
+  color: rgb(73,143,217);
+  text-decoration: underline;
+}
+
+.row.bookrow {
+  padding-top: 25px;
+}
+
+.book {
+  color: rgb(73,143,217);
+  text-decoration: underline;
+  padding-left: 40px;
+}
+
+.book {
+  color: rgb(73,143,217);
+  text-decoration: underline;
+  padding-left: 40px;
+}
+
+.book {
+  color: rgb(73,143,217);
+  text-decoration: underline;
+  padding-left: 40px;
 }
 
