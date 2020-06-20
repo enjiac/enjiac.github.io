@@ -99,8 +99,12 @@ a:hover {
     margin-bottom: 1rem;
     padding-left: 28px;
     padding-right: 28px;
-    font-size: 12px;
+    /*font-size: 12px;*/
   }
+}
+
+.bookshelf p {
+  font-size: 12px;
 }
 
 @media (min-width: 768px) {
