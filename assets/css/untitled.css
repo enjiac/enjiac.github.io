@@ -1,0 +1,13 @@
+@media (min-width: 767px) {
+  .bookshelf .book {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .bookshelf p {
+    max-width: 50%;
+    font-size: 12px;
+  }
+}
+
