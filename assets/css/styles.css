@@ -50,7 +50,7 @@
   .para1 {
     padding-left: 25px;
     padding-right: 25px;
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -58,7 +58,17 @@
   /*padding-top: 30px;*/
 }
 
+.blogpost {
+  color: rgb(73,143,217);
+  text-decoration: underline;
+}
+
 a:hover {
+  color: rgb(73,143,217);
+  text-decoration: underline;
+}
+
+.blogpost a {
   color: rgb(73,143,217);
   text-decoration: underline;
 }
