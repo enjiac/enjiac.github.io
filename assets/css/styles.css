@@ -41,7 +41,7 @@
 
 @media (min-width: 768px) {
   .para1 {
-    padding-left: 40px;
+    padding-left: 36px;
     width: 50%;
   }
 }
@@ -56,6 +56,11 @@
 
 .para1 {
   /*padding-top: 30px;*/
+}
+
+.essay {
+  color: rgb(73,143,217);
+  text-decoration: underline;
 }
 
 .blogpost {
@@ -99,7 +104,7 @@ a:hover {
   p {
     margin-top: 0;
     margin-bottom: 1rem;
-    padding-left: 40px;
+    padding-left: 36px;
   }
 }
 
