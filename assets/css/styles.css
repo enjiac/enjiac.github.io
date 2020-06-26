@@ -48,7 +48,7 @@
 
 @media (max-width: 767px) {
   .para1 {
-    padding-left: 25px;
+    padding-left: 22px;
     padding-right: 25px;
     width: 95%;
   }
@@ -112,7 +112,7 @@ a:hover {
   p {
     margin-top: 0;
     margin-bottom: 1rem;
-    padding-left: 28px;
+    padding-left: 22px;
     padding-right: 28px;
     /*font-size: 12px;*/
   }
