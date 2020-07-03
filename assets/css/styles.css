@@ -43,6 +43,7 @@
   .para1 {
     padding-left: 36px;
     width: 50%;
+    padding-top: 20px;
   }
 }
 
@@ -51,11 +52,8 @@
     padding-left: 22px;
     padding-right: 25px;
     width: 95%;
+    padding-top: 0px;
   }
-}
-
-.para1 {
-  /*padding-top: 30px;*/
 }
 
 .essay {
@@ -126,6 +124,7 @@ a:hover {
   .bookshelf p {
     max-width: 50%;
     font-size: 12px;
+    padding-top: 20px;
   }
 }
 
