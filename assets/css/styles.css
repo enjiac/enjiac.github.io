@@ -30,7 +30,7 @@
 
 .navbar-light .navbar-toggler {
   color: rgba(255,255,255,1);
-  border-color: rgba(29,29,31,0.5);
+  border-color: rgba(29,29,31,0);
 }
 
 @media (max-width: 768px) {
