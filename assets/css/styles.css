@@ -24,8 +24,18 @@
   color: rgba(29,29,31,1);
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: rgba(29,29,31,.5);
+@media (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(29,29,31,.5);
+    padding: 8px 7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(29,29,31,.5);
+    padding: 8px 18px;
+  }
 }
 
 .navbar-light .navbar-toggler {
@@ -132,5 +142,11 @@ a:hover {
   .bookshelf .book {
     max-width: 50%;
   }
+}
+
+.nav-link.active.d-md-flex.justify-content-md-end.navitem {
+  margin: 0px;
+  padding: 8px 7px;
+  /*color: white;*/
 }
 
