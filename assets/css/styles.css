@@ -131,10 +131,14 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .bookshelf p {
-    max-width: 50%;
-    font-size: 12px;
+  .bookshelf .firstline {
     padding-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bookshelf p {
+    max-width: 70%;
   }
 }
 
