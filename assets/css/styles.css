@@ -111,15 +111,15 @@ a:hover {
 @media (min-width: 768px) {
   p {
     margin-top: 0;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     padding-left: 36px;
   }
 }
 
 @media (max-width: 767px) {
   p {
-    /*margin-top: 0;*/
-    /*margin-bottom: 1rem;*/
+    margin-top: 0;
+    margin-bottom: 1rem;
     padding-left: 22px;
     padding-right: 28px;
     /*font-size: 12px;*/
