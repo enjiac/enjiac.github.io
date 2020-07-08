@@ -111,7 +111,7 @@ a:hover {
 @media (min-width: 768px) {
   p {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     padding-left: 36px;
   }
 }
