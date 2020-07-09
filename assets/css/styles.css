@@ -154,3 +154,21 @@ a:hover {
   /*color: white;*/
 }
 
+@media (max-width: 767px) {
+  img {
+    vertical-align: middle;
+    border-style: none;
+    width: 50%;
+    padding-left: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  img {
+    vertical-align: middle;
+    border-style: none;
+    width: 30%;
+    padding-left: 36px;
+  }
+}
+
