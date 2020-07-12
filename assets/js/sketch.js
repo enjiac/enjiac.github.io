@@ -5,13 +5,13 @@ var num;
 var r;
 
 function setup() {
-  let cnv = createCanvas(200,150);
+  let cnv = createCanvas(160,120);
     //cnv.position(0,0,'fixed');
 }
 
 function draw() {
   background('#FAFAFA');
-  translate(100, 75);
+  translate(80, 60);
   theta = map(sin(millis()/1000.0), -1, 1, 0, PI/6);
 
   var num=3;
