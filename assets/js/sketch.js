@@ -24,12 +24,11 @@ function draw() {
 
 function branch(len) {
   col=map(len, 0, 90, 150, 255);
-  stroke (col, 0, 74);
+  stroke (237,183,24);
   line(0, 0, 0, -len/2);
 
-  fill(col, 0, 74);
-  r = map(a, 0, 300, 10, 2);
-  ellipse(0, -len, r, r);
+  fill(237,183,24);
+  ellipse(0, -len, 5, 5);
   len-=50;
 
 
