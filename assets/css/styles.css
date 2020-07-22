@@ -60,7 +60,7 @@
 @media (max-width: 767px) {
   .para1 {
     padding-left: 22px;
-    padding-right: 25px;
+    padding-right: 0px;
     width: 95%;
     padding-top: 0px;
   }
