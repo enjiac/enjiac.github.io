@@ -160,6 +160,7 @@ a:hover {
     border-style: none;
     width: 50%;
     padding-left: 22px;
+    max-width: 150px;
   }
 }
 
@@ -169,6 +170,7 @@ a:hover {
     border-style: none;
     width: 30%;
     padding-left: 36px;
+    min-width: 200px;
   }
 }
 
