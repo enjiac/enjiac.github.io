@@ -113,6 +113,7 @@ a:hover {
     margin-top: 0;
     margin-bottom: 1rem;
     padding-left: 36px;
+    padding-right: 36px;
   }
 }
 
@@ -171,6 +172,18 @@ a:hover {
     width: 30%;
     padding-left: 36px;
     min-width: 200px;
+    padding-right: 36px;
+    padding-bottom: 15px;
+  }
+}
+
+.h1, h1 {
+  /*font-size: 2rem;*/
+}
+
+@media (min-width: 768px) {
+  .h2, h2 {
+    font-size: 2rem;
   }
 }
 
