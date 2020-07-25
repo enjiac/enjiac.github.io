@@ -207,11 +207,22 @@ a:hover {
   width: 90%;
 }
 
-.moviepic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+@media (max-width: 767px) {
+  .moviepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .moviepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 }
 
 @media (min-width: 768px) {
