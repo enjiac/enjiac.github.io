@@ -221,10 +221,10 @@ a:hover {
 
 @media (min-width: 768px) {
   .moviepic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 5px;
+    width: 100%;
   }
 }
 
