@@ -137,6 +137,12 @@ a:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .bookshelf .firstline {
+    padding-top: 10px;
+  }
+}
+
 @media (min-width: 768px) {
   .bookshelf p {
     max-width: 80%;
