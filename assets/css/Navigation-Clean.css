@@ -161,3 +161,17 @@
   }
 }
 
+@media (min-width: 768px) {
+  img {
+    margin-left: 36px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  img {
+    margin-left: 22px;
+    width: 150px;
+  }
+}
+
