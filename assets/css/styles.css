@@ -40,7 +40,7 @@
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(255,255,255,1);
+  /*color: rgba(255,255,255,1);*/
   border-color: rgba(29,29,31,0);
 }
 
@@ -248,6 +248,6 @@ a:hover {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url(https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-187_command_mac-512.png);
+  /*background-image: url(https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-187_command_mac-512.png);*/
 }
 
