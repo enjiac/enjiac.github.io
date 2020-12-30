@@ -80,7 +80,7 @@
 a:hover {
   color: rgb(73,143,217);
   text-decoration: underline;
-  content: 'abc';
+  /*content: 'abc';*/
 }
 
 .blogpost a {
