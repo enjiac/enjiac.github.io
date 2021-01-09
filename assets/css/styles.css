@@ -27,14 +27,14 @@
 
 @media (max-width: 767px) {
   .navbar-light .navbar-nav .nav-link {
-    color: rgba(29,29,31,.5);
+    color: rgba(29,29,31,.7);
     padding: 8px 7px;
   }
 }
 
 @media (min-width: 768px) {
   .navbar-light .navbar-nav .nav-link {
-    color: rgba(29,29,31,.5);
+    color: rgba(29,29,31,.7);
     padding: 8px 18px;
   }
 }
