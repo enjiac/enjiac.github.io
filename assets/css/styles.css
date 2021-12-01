@@ -217,15 +217,15 @@ a:hover {
 @media (max-width: 767px) {
   .moviepic {
     display: block;
-    margin-right: 22px;
-    width: 85%;
+    /* margin-right: 22px; */
+    width: 90%;
     padding-bottom: 5px;
   }
 }
 
 @media (min-width: 768px) {
   .moviepic {
-    padding-right: 36px;
+    /*padding-right: 36px;*/
     padding-bottom: 5px;
     width: 90%;
   }
