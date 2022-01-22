@@ -216,8 +216,7 @@ a:hover {
 
 @media (max-width: 767px) {
   .moviepic {
-    display: block;
-    /* margin-right: 22px; */
+    display: flex;
     width: 90%;
     padding-bottom: 5px;
   }
@@ -225,9 +224,12 @@ a:hover {
 
 @media (min-width: 768px) {
   .moviepic {
-    /*padding-right: 36px;*/
-    padding-bottom: 5px;
+    display:block;
+    padding-top:15px;
+    padding-bottom: 15px;
     width: 90%;
+    max-width: 600px;
+    margin: auto;
   }
 }
 
@@ -241,6 +243,11 @@ a:hover {
   .movietitle {
     padding-left: 22px;
   }
+}
+
+.article-container{
+  margin: auto;
+  max-width: 1000px;
 }
 
 .navbar-light .navbar-toggler-icon {
